@@ -41,12 +41,12 @@
   padding-bottom: 150px;
 }
 .header .header__main .header__main__text:nth-child(1) {
-  width: 800px;
+  max-width: 800px;
   color: #fff;
   font-size: 30px;
 }
 .header .header__main .header__main__text:nth-child(2) {
-  width: 458px;
+  max-width: 458px;
   color: #fff;
 }
 .header .header__main .header__main__text:nth-child(2) p {

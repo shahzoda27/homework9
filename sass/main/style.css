@@ -1,5 +1,6 @@
 @import url("../header/style.css");
 @import url("../section/style.css");
+@import url("../footer/footer.css");
 * {
   margin: 0px;
   padding: 0px;
