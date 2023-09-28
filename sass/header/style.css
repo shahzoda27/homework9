@@ -1,0 +1,116 @@
+.header .header__nav .header__nav__list, .header .header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__main button, .header .header__nav .header__nav__btn {
+  padding: 13px 35px;
+  background-color: crimson;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+
+.header {
+  padding: 0px 200px;
+  background-image: url("../../img/img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header .header__nav {
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+.header .header__nav .header__nav__text {
+  font-size: 25px;
+  color: #fff;
+}
+.header .header__nav .header__nav__list {
+  gap: 30px;
+}
+.header .header__nav .header__nav__list a {
+  color: #fff;
+  font-size: 18px;
+}
+.header .header__nav .header__bars {
+  display: none;
+}
+.header .header__main {
+  margin-top: 150px;
+  padding-bottom: 150px;
+}
+.header .header__main .header__main__text:nth-child(1) {
+  width: 800px;
+  color: #fff;
+  font-size: 30px;
+}
+.header .header__main .header__main__text:nth-child(2) {
+  width: 458px;
+  color: #fff;
+}
+.header .header__main .header__main__text:nth-child(2) p {
+  font-size: 20px;
+  opacity: 0.5;
+  margin-top: 25px;
+}
+.header .header__main button {
+  margin-top: 40px;
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .header {
+    padding: 0px 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 989px) {
+  .header {
+    padding: 0px 30px;
+  }
+  .header .header__main .header__main__text:nth-child(1) h1 {
+    font-size: 25px;
+    color: #fff;
+  }
+}
+@media (max-width: 768px) and (min-width: 447px) {
+  .header {
+    padding: 0px 20px;
+  }
+  .header .header__nav .header__nav__list {
+    display: none;
+  }
+  .header .header__nav .header__nav__btn {
+    display: none;
+  }
+  .header .header__nav .header__bars {
+    display: block;
+  }
+  .header .header__main__text h1 {
+    font-size: 25px;
+    color: #fff;
+  }
+  .header .header__main__text p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 447px) {
+  .header {
+    padding: 0px 20px;
+  }
+  .header .header__nav .header__nav__list {
+    display: none;
+  }
+  .header .header__nav .header__nav__btn {
+    display: none;
+  }
+  .header .header__nav .header__bars {
+    display: block;
+  }
+  .header .header__main__text h1 {
+    font-size: 20px;
+    color: #fff;
+  }
+  .header .header__main__text p {
+    font-size: 13px;
+  }
+}/*# sourceMappingURL=style.css.map */
